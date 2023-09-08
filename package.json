@@ -1,0 +1,14 @@
+{
+  "name": "pw-local-tests",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end tests for localcoding.us",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "author": "Anastasiia Lysenko",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "1.37.1"
+  }
+}
